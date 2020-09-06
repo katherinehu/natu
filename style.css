@@ -16,9 +16,14 @@ html {
     color: #4a4a4a;
     background-color: #f9f9f9;
     /*padding: 13px;
+    background: url('../blob/blobgreen.svg');
     height:3000px;*/
     column-width: 50%;
     text-align: left;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
   }
   @media (max-width: 684px) {
     body {
@@ -46,6 +51,8 @@ html {
     -moz-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    position: relative;
+    z-index: 2;
   }
   h1 {
     font-size: 2.35em;
@@ -69,7 +76,19 @@ html {
   #quotetext {
     font-size: 3em;
   }
-  
+  #blob {
+    position: absolute;
+    top: -45%;
+    z-index: 1;
+  }
+  #title {
+    position: relative;
+    z-index: 2;
+  }
+
+
+
+
 
 
 
