@@ -15,19 +15,23 @@ html {
     margin: auto;
     color: #4a4a4a;
     background-color: #f9f9f9;
-    padding: 13px;
-    /*height:3000px;*/
-    background:linear-gradient( #56caf1 0%, #2d8afd 51%, #1d349a 75%);
+    /*padding: 13px;
+    height:3000px;*/
     column-width: 50%;
+    text-align: left;
   }
   @media (max-width: 684px) {
     body {
       font-size: 1.53rem;
+      margin-left:25%;
+      margin-right:25%
     }
   }
   @media (max-width: 382px) {
     body {
       font-size: 1.35rem;
+      margin-left:5%;
+      margin-right:5%;
     }
   }
   h1, h2, h3, h4, h5, h6 {
@@ -62,6 +66,9 @@ html {
     font-size: 1em;
   }
 
+  #quotetext {
+    font-size: 6em;
+  }
 
 
 
