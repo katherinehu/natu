@@ -106,9 +106,9 @@ h3 {color:seashell; font-family:Arial, Helvetica, sans-serif;}
 p {color:seashell; font-family: Arial, Helvetica, sans-serif;}*/
 .button {
     border-style:solid;
-    border-color: seashell;
+    border-color:4a4a4a;
     border-width: 5px;
-    color: seashell;
+    color: 4a4a4a;
     padding: 15px 32px;
     background-color: transparent;
     text-align: center;
