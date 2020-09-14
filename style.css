@@ -16,7 +16,7 @@ html {
     color: #4a4a4a;
     background-color: #f9f9f9;
     /*padding: 13px;
-    background: url('../blob/blobgreen.svg');
+    /*background: url('../blob/blobgreen.svg');
     height:3000px;*/
     column-width: 50%;
     text-align: left;
@@ -86,13 +86,13 @@ html {
     z-index: 2;
   }
 .sign-up-form {
-  border-radius:25px;
   width: 300px;
   padding: 20px;
   margin: 8% auto 0;
   text-align: center;
 }
 .input-box {
+  border-radius:25px;
   padding: 10px;
   margin: 10px 0;
   width: 100%;
@@ -102,7 +102,9 @@ html {
   color: inherit;
 
 }
-
+img {
+  width:100%;
+}
 
 
 
@@ -112,12 +114,17 @@ html {
     align-items: center;
 }
 
-#wrapper {
-    display: flex;
+.grid-item {
+  padding: 0px;
+
 }
-/*h1   {color:seashell; font-family:Helvetica, sans-serif;}
-h3 {color:seashell; font-family:Arial, Helvetica, sans-serif;}
-p {color:seashell; font-family: Arial, Helvetica, sans-serif;}*/
+.grid-container {
+  display: grid;
+  grid-column-gap: 50px;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
 .button {
     border-style:solid;
     border-color:4a4a4a;
@@ -133,17 +140,5 @@ p {color:seashell; font-family: Arial, Helvetica, sans-serif;}*/
     cursor: pointer;
     font-family: Arial, Helvetica, sans-serif;
     box-shadow:0
-    /*top: 50%;
-    left: 44.5%; */
-    /*position: relative;*/
-    /*justify-content: center; */
-<<<<<<< HEAD
-
-  }
-  
-#contact {
-  display:fex;
+    
 }
-=======
-}
->>>>>>> 21252408480be7cbdc6b812aab062ca904b2ad0e
