@@ -144,3 +144,11 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     box-shadow:0
 }
+
+.contact-btn{
+  color: #4a4a4a;
+  opacity: 0.6;
+  font-family: Verdana, Geneva, sans-serif;
+  text-decoration: none;
+}
+.contact-btn:hover {opacity: 1;}
