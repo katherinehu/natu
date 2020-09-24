@@ -68,7 +68,9 @@ html {
     font-size: 1.5em;
   }
   h5 {
+    font-family: 'Scada', sans-serif;
     font-size: 1.25em;
+    font-weight: 100;
   }
   h6 {
     font-size: 1em;
