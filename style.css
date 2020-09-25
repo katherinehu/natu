@@ -7,21 +7,15 @@ html {
     font-size: 62.5%;
     font-family: serif;
     box-sizing: border-box;
-    
   }
   body {
     font-size: 1.8rem;
     line-height: 1.618;
-    max-width: 50em; /*was 38*/
+    max-width: 38em;
     margin: auto;
     color: #4a4a4a;
-<<<<<<< HEAD
     background-color: #FFFFFF;
     /*padding: 13px;
-=======
-    background-color: #f9f9f9;
-    /*padding: 10px;
->>>>>>> 2f77d5eaaa616b63c025c4099da07621f37f02f3
     /*background: url('../blob/blobgreen.svg');
     height:3000px;*/
     column-width: 50%;
@@ -62,7 +56,6 @@ html {
   }
   h1 {
     font-size: 2.35em;
-    /*margin-bottom: 2em;*/
   }
   h2 {
     font-size: 2em;
@@ -74,16 +67,13 @@ html {
     font-size: 1.5em;
   }
   h5 {
-    font-family: 'Scada', sans-serif;
     font-size: 1.25em;
-    font-weight: 500;
-    line-height: 2.4;
-    margin-bottom: 7em;
   }
   h6 {
     font-size: 1em;
+
+    
   }
-<<<<<<< HEAD
   p {
     font-size: .8em;
   }
@@ -92,22 +82,8 @@ html {
     font-family: 'Nunito', sans-serif;
     color:#0000CD;
   }
-=======
-
-  p {
-    font-family: 'Scada', sans-serif;
-    margin-top: -1em;
-  }
-
-  #titlehead {
-    margin-top: 1.5em;
-    margin-bottom: 1em;
-  }
-
->>>>>>> 2f77d5eaaa616b63c025c4099da07621f37f02f3
   #quotetext {
-    font-size: 2.80em;
-    margin-bottom: 0.5em;
+    font-size: 3em;
   }
   #blob {
     position: absolute;
@@ -176,11 +152,3 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     box-shadow:0
 }
-
-.contact-btn{
-  color: #4a4a4a;
-  opacity: 0.6;
-  font-family: Verdana, Geneva, sans-serif;
-  text-decoration: none;
-}
-.contact-btn:hover {opacity: 1;}
