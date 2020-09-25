@@ -12,11 +12,11 @@ html {
   body {
     font-size: 1.8rem;
     line-height: 1.618;
-    max-width: 38em;
+    max-width: 50em; /*was 38*/
     margin: auto;
     color: #4a4a4a;
     background-color: #f9f9f9;
-    /*padding: 13px;
+    /*padding: 10px;
     /*background: url('../blob/blobgreen.svg');
     height:3000px;*/
     column-width: 50%;
@@ -57,6 +57,7 @@ html {
   }
   h1 {
     font-size: 2.35em;
+    /*margin-bottom: 2em;*/
   }
   h2 {
     font-size: 2em;
@@ -71,13 +72,16 @@ html {
     font-family: 'Scada', sans-serif;
     font-size: 1.25em;
     font-weight: 100;
+    line-height: 2.4;
+    margin-bottom: 7em;
   }
   h6 {
     font-size: 1em;
   }
 
   #quotetext {
-    font-size: 3em;
+    font-size: 2.80em;
+    margin-bottom: 0.5em;
   }
   #blob {
     position: absolute;
