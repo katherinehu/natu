@@ -14,7 +14,7 @@ html {
     line-height: 1.618;
     max-width: 50em; /*was 38*/
     margin: auto;
-    color: #4a4a4a;
+    color: #000000;
     background-color: #FFFFFF;
     /*padding: 10px;
     /*background: url('../blob/blobgreen.svg');
@@ -121,8 +121,8 @@ html {
 img {
   width:100%;
 }
-#selection {
-  background-color: #838080;
+#selection{
+  margin-top: 15%;
 }
 
 
@@ -177,7 +177,3 @@ img {
   text-decoration: none;
 }
 .contact-btn:hover {opacity: 1;}
-
-#about{
-
-}
