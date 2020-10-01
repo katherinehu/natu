@@ -12,9 +12,9 @@ html {
   body {
     font-size: 1.8rem;
     line-height: 1.618;
-    max-width: 50em; /*was 38*/
+    max-width: 60%; /*was 38*/
     color: #000000;
-    /*background-color: #FFFFFF;
+    /*background-color: #FFFFFF;d
     /*padding: 10px;
     /*background: url('../blob/blobgreen.svg');
     height:3000px;*/
@@ -183,6 +183,6 @@ img {
 
 }
 .bkg-grey{
-  background-color: grey !important;
+  background-color: lightgrey !important;
   margin: auto !important;
 }
