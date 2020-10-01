@@ -183,7 +183,7 @@ img {
 .bkg-white{
   background-color: white !important;
   margin: auto !important;
-  max-width: 70%; /*was 38, then 50*/
+  max-width: 65%; /*was 38, then 50*/
   max-height: 100%;
 }
 .bkg-grey{
