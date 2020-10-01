@@ -15,7 +15,7 @@ html {
     max-width: 50em; /*was 38*/
     margin: auto;
     color: #000000;
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;
     /*padding: 10px;
     /*background: url('../blob/blobgreen.svg');
     height:3000px;*/
@@ -177,3 +177,10 @@ img {
   text-decoration: none;
 }
 .contact-btn:hover {opacity: 1;}
+
+#bkg-white{
+  background-color: white;
+}
+#bkg-grey{
+  background-color: grey;
+}
