@@ -13,7 +13,6 @@ html {
     font-size: 1.8rem;
     line-height: 1.618;
     max-width: 50em; /*was 38*/
-    margin: auto;
     color: #000000;
     /*background-color: #FFFFFF;
     /*padding: 10px;
@@ -21,9 +20,9 @@ html {
     height:3000px;*/
     column-width: 50%;
     text-align: left;
-    background-position: top left;
+    /*background-position: top left;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
     
   }
   @media (max-width: 684px) {
@@ -179,8 +178,12 @@ img {
 .contact-btn:hover {opacity: 1;}
 
 #bkg-white{
-  background-color: white;
+  background-color: white !important;
+  margin: auto !important;
+
 }
 #bkg-grey{
-  background-color: grey;
+  background-color: grey !important;
+  margin: auto !important;
+
 }
