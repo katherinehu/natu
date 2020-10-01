@@ -10,19 +10,20 @@ html {
     
   }
   body {
+    margin: auto;
     font-size: 1.8rem;
     line-height: 1.618;
-    max-width: 60%; /*was 38*/
+    max-width: 60%; /*was 38, then 50*/
     color: #000000;
-    /*background-color: #FFFFFF;d
+    background-color: #FFFFFF;
     /*padding: 10px;
     /*background: url('../blob/blobgreen.svg');
     height:3000px;*/
     column-width: 50%;
     text-align: left;
-    /*background-position: top left;
+    background-position: top left;
     background-repeat: no-repeat;
-    background-attachment: fixed;*/
+    background-attachment: fixed;
     
   }
   @media (max-width: 684px) {
@@ -177,7 +178,7 @@ img {
 }
 .contact-btn:hover {opacity: 1;}
 
-#bkg-white{
+/* #bkg-white{
   background-color: white !important;
   margin: auto !important;
 
@@ -185,4 +186,4 @@ img {
 .bkg-grey{
   background-color: lightgrey !important;
   margin: auto !important;
-}
+} */
