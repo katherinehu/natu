@@ -177,7 +177,7 @@ img {
 }
 .contact-btn:hover {opacity: 1;}
 
-.bkg-white{
+#bkg-white{
   background-color: white !important;
   margin: auto !important;
 
@@ -185,5 +185,4 @@ img {
 #bkg-grey{
   background-color: grey !important;
   margin: auto !important;
-
 }
